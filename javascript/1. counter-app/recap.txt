@@ -1,0 +1,10 @@
+script tag
+variables let
+numbers
+strings
+console.log()
+functions
+The DOM - basically how to use js to change the website
+getElementById(string)
+innerText - computationally expensive so opt for text content
+textContent

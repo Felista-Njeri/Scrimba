@@ -1,0 +1,7 @@
+- if you want to access sth stored in an object{}, you use the dot notation plus the key name of what you want to access since things in objects are stored in key-value pairs. So for example person.name
+
+- JSON parse is used when, if you are using localStorage.getItem(pass the key since in localStoage, stuff is stored in key-value pairs and the pairs are always in strings) it will return a string. Therefore, the JSON.parse is used to convert the string to its original data type
+
+- JSON.stringify is used to convert data to be stored in localStorage to strings since everything in localStorage is stored in string format. JSON.stringify(myLeads). When using localStorage.setItem() you pass in the key and the value. E.g localStorage.setItem("myLeads", JSON.stringify(myLeads))  
+
+- manipulating the DOM using .innerHtml usually has a cost especially when using it inside a for loop. Therefore it is advised to refactor it to make it run once 
